@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      title: 'ruoyi-mall商城管理系统',
+      title: '澜莓商城管理系统',
       logo: logoImg
     }
   }

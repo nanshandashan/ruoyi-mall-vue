@@ -46,6 +46,7 @@ import DictRadio from '@/components/DictRadio'
 import DictSelect from '@/components/DictSelect'
 
 import InBody from '@/components/InBody/InBody.vue'
+import WmsTable from '@/components/WmsTable'
 // 全局方法挂载
 Vue.prototype.getDicts = getDicts
 Vue.prototype.getConfigKey = getConfigKey
@@ -74,6 +75,7 @@ Vue.component('ImagePreview', ImagePreview)
 Vue.component('DictRadio',DictRadio)
 Vue.component('DictSelect',DictSelect)
 Vue.component('InBody', InBody)
+Vue.component('WmsTable', WmsTable)
 
 Vue.use(directive)
 Vue.use(plugins)

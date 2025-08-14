@@ -1,7 +1,9 @@
 <template>
   <div class="home-wrapper">
     <el-card style="margin: 20px 20px; font-size: 14px">
-      <div slot="header"><span>讲解视频：</span><a href="https://www.bilibili.com/video/BV16N4y1d7MM/" target="_blank">https://www.bilibili.com/video/BV16N4y1d7MM/</a></div>
+      <!-- <div slot="header">
+        <span>讲解视频：</span><a href="https://www.bilibili.com/video/BV16N4y1d7MM/" target="_blank">https://www.bilibili.com/video/BV16N4y1d7MM/</a>
+      </div> -->
       <div class="first"><img alt="" :src="avatar" style="width: 50px; height: 50px; float:left; margin-right:10px;border-radius:50%" />
         <p style="font-size:16px;margin-bottom:8px">{{name}}，{{hello}}</p>
         <p style="font-size:12px;color:rgb(185, 181, 189)">今天是：{{nowTime}}</p>
@@ -32,7 +34,7 @@
       </div>
     </el-card>
     <el-row class="pl20 pr20" :gutter="10">
-      <el-col :span="3">
+      <!-- <el-col :span="3">
         <el-image
           style="height: 150px"
           :src="require('@/assets/QRCode/h5.png')"
@@ -45,9 +47,9 @@
           :src="require('@/assets/QRCode/wechat_mini.jpg')"
           fit="fill"
         ></el-image>
-      </el-col>
+      </el-col> -->
 
-      <el-col :span="6">
+      <el-col :span="12">
         <el-card shadow="always" style="padding-bottom: 30px">
           <div slot="header"><span>售后</span></div>
           <ul style="margin-top: 10px">
@@ -99,13 +101,13 @@
       </el-col>
     </el-row>
     <el-row class="pl20 pr20" :gutter="10">
-      <el-col :span="16">
+      <el-col :span="24">
         <order-line-chart></order-line-chart>
         <div class="card transform">
           <top-product></top-product>
         </div>
       </el-col>
-      <el-col :span="8">
+      <!-- <el-col :span="8">
         <el-card style="margin: 20px 20px; font-size: 14px">
           <div slot="header"><span>发展历程</span></div>
           <el-timeline>
@@ -141,7 +143,7 @@
             </el-timeline-item>
           </el-timeline>
         </el-card>
-      </el-col>
+      </el-col> -->
     </el-row>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="register">
     <el-form ref="registerForm" :model="registerForm" :rules="registerRules" class="register-form">
-      <h3 class="title">ruoyi-mall商城管理系统</h3>
+      <h3 class="title">澜莓商城管理系统</h3>
       <el-form-item prop="username">
         <el-input v-model="registerForm.username" type="text" auto-complete="off" placeholder="账号">
           <svg-icon slot="prefix" icon-class="user" class="el-input__icon input-icon" />
@@ -59,9 +59,9 @@
         </div>
       </el-form-item>
     </el-form>
-    <!--  底部  -->
+     底部 
     <div class="el-register-footer">
-      <span>Copyright © 2017-2023 ichengle.top 技术支持：关注“程序员诚哥”微信公众号，回复：支持</span>
+      <span>Copyright © 2017-2023 大山</span>
     </div>
   </div>
 </template>
